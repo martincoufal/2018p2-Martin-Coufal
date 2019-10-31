@@ -9,4 +9,12 @@
 .slider > div > *:target {
     display: block;
 }
-
+ul {
+    text-align: center;
+}
+li {
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
