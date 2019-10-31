@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Card demo</title>
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" href="./assets/styles/typography.css">
+    <link rel="stylesheet" href="./assets/styles/card.css">
+    <link rel="stylesheet" href="./assets/styles/slider.css">
+    <link rel="stylesheet" href="./assets/styles/range.css">
+    <link rel="stylesheet" href="./assets/styles/layout.css">
+</head>
+
+<body>
+    <h1>Příklad jednoduchého slideru</h1>
+    <main>
+        <section>
+            <header>
+                <h2>Pedagogičtí pracanti tohoto týdne</h2>
+            </header>
+            <div class="slider">
+                <nav>
+                    <ul>
+                        <li><a href="#slT1">&bigcirc;</a></li>
+                        <li><a href="#slT2">&bigcirc;</a></li>
+                        <li><a href="#slT3">&bigcirc;</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <div id="slT1">
+                        <input value="1" type="range" class="range" min="1" max="3" step="1" disabled>
+                        <figure class="moje card">
+                            <header>
+                                <img src="./assets/img/Ba.jpg" alt="profilové foto Zuzana Bernátová" />
+                            </header>
+                            <div>
+                                <h2>PhDr. Zuzana Bernátová (Bá)</h2>
+                                <address>
+                                    <p><span class="icon">job</span> <span>pedagog</span></p>
+                                    <p><span class="icon">email</span> <span>zuzana.bernatova@pslib.cz</span></p>
+                                    <p><span class="icon">mobile</span> <span>+420 485 100 113/23</span></p>
+                                </address>
+                            </div>
+                        </figure>
+                    </div>
+                    <div id="slT2">
+                        <input value="2" type="range" class="range" min="1" max="3" step="1" disabled>
+                        <figure class="card">
+                            <header>
+                                <img src="./assets/img/Br.jpg" alt="profilové foto Vojtěch Brodský" />
+                            </header>
+                            <div>
+                                <h2>Vojtěch Brodský (Br)</h2>
+                                <address>
+                                    <p><span class="icon">job</span> <span>pedagog</span></p>
+                                    <p><span class="icon">email</span> <span>vojtech.brodsky@pslib.cz</span></p>
+                                    <p><span class="icon">mobile</span> <span>420 485 100 113/44</span></p>
+                                </address>
+                            </div>
+                        </figure>
+                    </div>
+                    <div id="slT3">
+                        <input value="3" type="range" class="range" min="1" max="3" step="1" disabled>
+                        <figure class="card">
+                            <header>
+                                <img src="./assets/img/Jc.jpg" alt="profilové foto Leona Jenčová" />
+                            </header>
+                            <div>
+                                <h2>Leona Jenčová (Jč)</h2>
+                                <address>
+                                    <p><span class="icon">job</span> <span>pedagog</span></p>
+                                    <p><span class="icon">email</span> <span>leona.jencova@pslib.cz</span></p>
+                                    <p><span class="icon">mobile</span> <span>+420 485 100 113</span></p>
+                                </address>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
