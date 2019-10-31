@@ -1,0 +1,12 @@
+:root {
+    --dot-color: black;
+    --dot-invert: gray;
+}
+.slider > div > * {
+    display: none;
+}
+
+.slider > div > *:target {
+    display: block;
+}
+

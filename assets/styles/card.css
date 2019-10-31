@@ -1,0 +1,50 @@
+:root {
+    --card-bg: hsl(200, 20%, 97%);
+    --card-font: black;
+}
+
+.card {
+    color: var(--card-font);
+    background-color: var(--card-bg);
+    width: 30em;
+    height: 12em;
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.card > header {
+    width: 12em;
+    height: 100%;
+    overflow: hidden;
+}
+
+.card > header > img {
+    width: 100%;
+}
+
+.card > div {
+    height: 100%;
+    box-sizing: border-box;
+    width: calc(100% - 12em);
+    padding: 1em;
+}
+
+.card h2 {
+    font-size: 1.15em;
+    margin: 0;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid currentColor;
+}
+
+.card p {
+    margin: .7em 0;
+    font-style: normal;
+}
+
+.card address span:first-child {
+    font-size: 1.66em;
+    vertical-align: middle;
+    display: inline-block;
+    width: 1.2em;
+}
